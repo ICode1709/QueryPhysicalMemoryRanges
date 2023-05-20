@@ -1,7 +1,5 @@
 #pragma once
-#define UMDF_USING_NTSTATUS
 #include <Windows.h>
-#include <ntstatus.h>
 
 typedef struct _PHYSICAL_RANGE {
 	ULONGLONG Address;
